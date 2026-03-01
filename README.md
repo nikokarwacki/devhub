@@ -1,1 +1,82 @@
-# devhub
+# 🚀 DevHub
+
+DevHub is a React Single Page Application (SPA) that helps developers discover technology events, manage personal coding projects, and track professional development progress within one centralized platform.
+
+This project was built as a Minimum Viable Product (MVP) demonstrating modern frontend development practices including routing, API integration, state management with React Context, testing, and deployment.
+
+---
+
+##  Live Application
+
+ GitHub Repository: https://github.com/nikokarwacki/devhub
+
+---
+
+##  Project Purpose
+
+Developers and computer science students often rely on multiple disconnected platforms to:
+
+- Discover technology events  
+- Track personal coding projects  
+- Monitor professional development  
+
+DevHub centralizes these features into one responsive application designed specifically for developers.
+
+
+
+##  Technologies Used
+
+- React 19
+- Vite
+- React Router
+- React Context API
+- Ticketmaster Discovery API
+- Vitest
+- React Testing Library
+- CSS (mobile-first responsive layout)
+- Vercel (deployment)
+
+
+
+##  Features
+
+### 🔹 Routing
+- `/` – Home Dashboard  
+- `/events` – Event Discovery  
+- `/events/:id` – Dynamic Event Details  
+- `/projects` – Project Manager  
+- `/saved-events` – Saved Events  
+- `*` – 404 Not Found  
+
+### 🔹 API Integration
+- Fetches live event data from the Ticketmaster Discovery API
+- Displays event name, date, venue, and images
+- Dynamic event details page
+- Loading and error handling states
+
+### 🔹 State Management
+- Local state with `useState`
+- Global state using React Context API
+- Saved events persist using `localStorage`
+
+### 🔹 Responsive Design
+- Mobile-first layout
+- Flexible grid system
+- Responsive components across screen sizes
+
+### 🔹 Testing
+- Vitest configured
+- React Testing Library
+- Component rendering tests
+- Context behavior validation
+- All tests pass using `npm run test`
+
+
+
+##  Installation & Setup
+
+Clone the repository:
+
+bash
+git clone https://github.com/nikokarwacki/devhub.git
+cd devhub
