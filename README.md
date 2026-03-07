@@ -9,7 +9,7 @@ This project was built as a Minimum Viable Product (MVP) demonstrating modern fr
 ##  Live Application
 
  GitHub Repository: https://github.com/nikokarwacki/devhub
-
+ Live App: https://devhub-rust.vercel.app/
 ---
 
 ##  Project Purpose
@@ -79,13 +79,26 @@ This key can be obtained from the Ticketmaster Developer Portal.
 
 
 
-##  Installation & Setup
+## Installation & Setup
 
 Clone the repository:
 
-bash
 git clone https://github.com/nikokarwacki/devhub.git
 cd devhub
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+Run tests:
+
+npm run test
+
+
 
 ## Deployment
 
